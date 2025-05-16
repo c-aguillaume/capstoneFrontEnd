@@ -91,3 +91,31 @@ textarea:not([rows]) {
 :target {
     scroll-margin-block: 5ex;
 }
+
+:root {
+    --primary-color: #6D2077;
+
+    --secondary-color: #B7A57A;
+
+    --font-family: 'Georgia', serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.navbar-custom {
+    background-color: var(--primary-color);
+    /* purple */
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: var(--secondary-color);
+    /* gold */
+}
